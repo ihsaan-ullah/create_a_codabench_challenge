@@ -228,6 +228,9 @@ Follow the steps below to upload Public Data (`Dataset 0`) and Input/Reference D
 ![Datasets](images/add_dataset_form.png)
 
 
+4. Click `Upload` button to save changes.
+
+
 ##### ⚠️ Note  
 - For Public Data (`Dataset 0`) choose the type *Public Data*
 - For Input Data (`Dataset 1`, `Dataset 2`) choose *Input Data*
@@ -254,6 +257,8 @@ Follow the steps below to upload Public Data (`Dataset 0`) and Input/Reference D
 ![Datasets](images/create_task_form_1.png)
 
 ![Datasets](images/create_task_form_2.png)
+
+5. Click `Create` button to save changes.
 
 ***
 
