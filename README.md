@@ -207,22 +207,27 @@ You have to make changes according to the specifications and goals of your chall
 
 Follow the steps below to upload Public Data (`Dataset 0`) and Input/Reference Data (`Dataset 1` and `Dataset 2`) to Codabench 
 
-1. Click `My Competitions` in the top navigation bar
-![My Competitions](images/my_competitions.png)
+1. Click `Resources` in the top navigation bar
+![Resources](images/resources.png)
 
-2. Click `My Datasets`
-![Datasets](images/datasets.png)
+2. Click `Add Dataset`
+![Datasets](images/add_dataset.png)
 
-3. Click `Create Dataset`
-![Create dataset](images/create_dataset.png)
-
-4. Enter details of the dataset:
-    - Name of dataset
-    - Description of dataset
+3. Fill the form by entering the following details:
+    - Name
+    - Description
     - Select type
+        - Ingestion Program
+        - Input Data
+        - Public Data
+        - Reference Data
+        - Scoring Program
+        - Starting Kit 
+        - Submission
     - Select the zipped dataset and click upload
 
-![Upload dataset](images/upload_dataset.png)
+![Datasets](images/add_dataset_form.png)
+
 
 ##### ⚠️ Note  
 - For Public Data (`Dataset 0`) choose the type *Public Data*
