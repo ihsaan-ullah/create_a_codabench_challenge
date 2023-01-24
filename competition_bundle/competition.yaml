@@ -3,8 +3,8 @@
 # Created on: Dec 01, 2022
 
 version: 2
-title: Fair-Universe Toy Competition
-description: Toy FAIR UNIVERSE competition for kickstart on Codabench
+title: Sample Competition
+description: A sample competition for gettin started on Codabench
 image: logo.png
 has_registration: True   
 force_submission_to_leaderboard: True   # If false, participants must submit manually, do not change
@@ -26,10 +26,18 @@ pages:
 phases:
   - index: 0
     name: Phase 1
-    description: A testing phase
-    start: 2022-12-01
+    description: Feedback Phase
+    start: 2023-01-01
     end: 2023-12-01
     color: green   
+    tasks:
+      - 0
+  - index: 1
+    name: Phase 2
+    description: Final Phase
+    start: 2024-01-01
+    end: 2024-12-01
+    color: purple   
     tasks:
       - 0
 tasks:

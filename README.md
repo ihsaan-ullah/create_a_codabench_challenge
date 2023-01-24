@@ -22,9 +22,7 @@ A sample challenge with the `competition_bundle` in this repository is given her
 3. [How to create a challenge on Codabench?](#how_to_create_a_challenge_on_codabench) 
 4. [How to upload datasets on Codabench?](#how_to_upload_datasets_on_codabench) 
 5. [How to create a task on Codabench?](#how_to_create_a_task_on_codabench) 
-6. [How to change datasets in a competition?](#how_to_change_datasets_in_a_competition) 
-
-
+6. [How to change a task in a competition?](#how_to_change_a_task_in_a_competition) 
 
 
 ***
@@ -261,29 +259,23 @@ Follow the steps below to upload Public Data (`Dataset 0`) and Input/Reference D
 
 <br><br><br>
 
-# How to change a task in datasets in a competition? <a name="how_to_change_datasets_in_a_competition"></a>
+# How to change a task in a competition? <a name="how_to_change_a_task_in_a_competition"></a>
 
-Follow the steps below to change datasets in your competition.
+Follow the steps below to change a task in your competition.
 
-1. Click `My Competitions` in the top navigation bar
-![My Competitions](images/my_competitions.png)
+1. Click `Management` under Benchmarks in the Navigation bar
+![Management](images/management.png)
 
-2. Click `Competitions I'm Running`
-![Comp I'm running](images/competitions_i_am_running.png)
+2. Click the `Edit` button in front of the competition you want to edit
+![Edit Comeptition](images/edit_competition.png)
 
-3. Click `Edit Competition`
-![Edit competition](images/edit_competition.png)
+3. Click the `Edit` button in front of the phase for which you want to change the task
+![Edit Competition Phase](images/edit_phase.png)
 
-4. Scroll down to the section `Phases`. 
+4. Click the tasks dropdown to select a new task. You can remove existing task by clickin the cross button
+![Edit Competition Phase Task](images/edit_phase_task.png)
 
-5. For ***Phase 1*** select the correct *Public Data* and *Input Data* from the dropdown menu  
-    - Public Data : `Dataset 0`  
-    - Input Data : `Dataset 1`
-
-6. For ***Phase 2*** select only the relevant *Input Data* from the dropdown menu  
-    - Input Data : `Dataset 2`
-
-7. Click the `Submit` button at the bottom of the page to save changes.
+5. Click the `Save` button at the bottom of the page to save changes.
 
 
 ***
@@ -295,6 +287,9 @@ Follow the steps below to change datasets in your competition.
 
 ## Contact 
 In case of any confusion, contact by email : ihsan2131@gmail.com
+
+## Bugs/Issues
+Report any inconsistencies or bugs on Codabench Github: https://github.com/codalab/codabench/issues
 
 
 
