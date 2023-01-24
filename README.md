@@ -21,7 +21,8 @@ A sample challenge with the `competition_bundle` in this repository is given her
 2. [Instructions about datasets](#instructions_about_datasets) 
 3. [How to create a challenge on Codabench?](#how_to_create_a_challenge_on_codabench) 
 4. [How to upload datasets on Codabench?](#how_to_upload_datasets_on_codabench) 
-5. [How to change datasets in a competition?](#how_to_change_datasets_in_a_competition) 
+5. [How to create a task on Codabench?](#how_to_create_a_task_on_codabench) 
+6. [How to change datasets in a competition?](#how_to_change_datasets_in_a_competition) 
 
 
 
@@ -210,7 +211,7 @@ Follow the steps below to upload Public Data (`Dataset 0`) and Input/Reference D
 1. Click `Resources` in the top navigation bar
 ![Resources](images/resources.png)
 
-2. Click `Add Dataset`
+2. Click `Add Dataset` button
 ![Datasets](images/add_dataset.png)
 
 3. Fill the form by entering the following details:
@@ -240,8 +241,27 @@ Follow the steps below to upload Public Data (`Dataset 0`) and Input/Reference D
 <br><br><br>
 
 
+# How to create a task on Codabench? <a name="how_to_create_a_task_on_codabench"></a>
 
-# How to change datasets in a competition? <a name="how_to_change_datasets_in_a_competition"></a>
+1. Click `Resources` in the top navigation bar
+![Resources](images/resources.png)
+
+2. Click `Tasks` tab
+![Datasets](images/tasks.png)
+
+3. Click `Create Task` button
+![Datasets](images/create_task.png)
+
+4. Fill the form by entering ***Name*** and ***Description*** in Details tab and selecting ***Scoring Program***, ***Ingestion Program***, ***Reference Data***, and ***Input Data*** from the uploaded Datasets.
+![Datasets](images/create_task_form_1.png)
+
+![Datasets](images/create_task_form_2.png)
+
+***
+
+<br><br><br>
+
+# How to change a task in datasets in a competition? <a name="how_to_change_datasets_in_a_competition"></a>
 
 Follow the steps below to change datasets in your competition.
 
