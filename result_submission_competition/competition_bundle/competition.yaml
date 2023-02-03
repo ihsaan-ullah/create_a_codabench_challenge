@@ -1,0 +1,77 @@
+# FAIR-UNIVERSE competition yaml file
+# Created by: Ihsan Ullah
+# Created on: Dec 01, 2022
+
+version: 2
+title: Fair-Universe Toy Competition Results Only Submission
+description: Toy FAIR UNIVERSE competition
+image: logo.png
+has_registration: True   
+force_submission_to_leaderboard: True   # If false, participants must submit manually, do not change
+disallow_leaderboard_modifying: True    # If true, submissions cannot be changed
+enable_detailed_results: True           # True if html file written
+enable_forum: True                      # Forum active
+docker_image: ihsaanullah/codalab-legacy:gpu
+end_date: null                          # Never ends
+
+terms: pages/terms.md
+pages:  
+  - title: Overview
+    file: pages/overview.md
+  - title: Evaluation
+    file: pages/evaluation.md
+  - title: Terms
+    file: pages/terms.md
+  - title: Data
+    file: pages/data.md
+
+phases:
+  - index: 0
+    name: Phase 1
+    description: Feedback Phase
+    start: 2023-01-01
+    end: 2023-12-31
+    color: green   
+    tasks:
+      - 0
+  - index: 1
+    name: Phase 2
+    description: Final Phase
+    start: 2024-01-01
+    end: 2024-12-31
+    color: purple   
+    tasks:
+      - 1
+
+tasks:
+  - index: 0
+    name: Task Phase 1
+    description: Signal vs Background Classificaiton
+    input_data: feedback_phase/input_data/
+    reference_data: feedback_phase/reference_data/  
+    scoring_program: scoring_program/
+  - index: 1
+    name: Task Phase 2
+    description: Signal vs Background Classificaiton
+    input_data: final_phase/input_data/
+    reference_data: final_phase/reference_data/  
+    scoring_program: scoring_program/
+
+solutions:
+  - index: 0
+    tasks:
+    - 0
+    - 1
+    path: solution/
+
+leaderboards:
+  - title: Results
+    key: main
+    columns:
+      - title: score
+        key: auc
+        index: 0
+        sorting: desc
+
+
+

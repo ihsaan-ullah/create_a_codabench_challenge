@@ -3,11 +3,19 @@
 This repository is for **challenge organizers** to organize a challenge on [Codabench](https://www.codabench.org/).
 
 
-This repository has a sample `starting_kit` which provides a template of how you can design yours.
+This repository has two competitions:
+    1. Results submission only competition (without ingestion program)
+    2. Code submission competition (with ingestion program)
 
-A sample `competition_bundle` is provided as a template bundle which works perfectly on Codabench.
 
-A sample challenge with the `competition_bundle` in this repository is given here: [Sample Challenge](https://www.codabench.org/).
+Code submission competition has a sample `starting_kit` which provides a template of how you can design yours.
+
+A sample `competition_bundle` is provided for both competitions as a template bundle which works perfectly on Codabench.
+
+
+#### Sample Competitions
+[Results Submission Challenge](https://www.codabench.org/competitions/587/)
+
 
 
 ***
