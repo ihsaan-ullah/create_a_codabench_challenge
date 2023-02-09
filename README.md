@@ -11,7 +11,7 @@ This repository has two competition bundles:
 
 
 ## Sample Competitions
-[Code Submission Challenge](https://www.codabench.org/competitions/641/)
+[Code Submission Challenge](https://www.codabench.org/competitions/641/)  
 [Results Submission Challenge](https://www.codabench.org/competitions/587/)
 
 
