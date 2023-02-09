@@ -300,7 +300,7 @@ Follow the steps below to change a task in your competition.
 In case of any confusion, contact by email : ihsan2131@gmail.com
 
 ## Bugs/Issues
-Report any inconsistencies or bugs on Codabench Github: https://github.com/codalab/codabench/issues
+Report any inconsistencies or bugs related to Codabench Platform on Github: https://github.com/codalab/codabench/issues
 
 
 
