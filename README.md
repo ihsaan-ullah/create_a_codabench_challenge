@@ -4,8 +4,8 @@ This repository is for **challenge organizers** to organize a challenge on [Coda
 
 
 This repository has two competition bundles:
-    1. Results submission only competition (without ingestion program)
-    2. Code submission competition (with ingestion program)
+ 1. Results submission only competition (without ingestion program)
+ 2. Code submission competition (with ingestion program)
 
 
 
